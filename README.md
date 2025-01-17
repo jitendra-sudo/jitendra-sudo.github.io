@@ -4,13 +4,13 @@
 
 ### 🌟 About Me
 - **I'm  a Frontend Developer**  
-- 💻 All of my projects are available at my [Portfolio](https://ownField.com)  
+- 💻 All of my projects are available at my [Portfolio](https://jitendra-sudo.netlify.app/)  
 - 🤔 **Ask me about:**  
   `HTML` | `CSS` | `JavaScript` | `MongoDB` | `MySQL` | `React` | `npm`  
 - 📫 **How to reach me:**  
   - 📧 Email: [stupidboysbusiness@gmail.com](mailto:stupidboysbusiness@gmail.com)  
   - 🌐 [LinkedIn Profile](https://www.linkedin.com/in/jitendra2705/)  
-  - 🌟 [Portfolio](https://www.Portfolio.com)  
+  - 🌟 [Portfolio](https://jitendra-sudo.netlify.app/)  
 
 ---
 
@@ -54,7 +54,7 @@
 
 ### 📌 Pinned Projects  
 
-### [OwnField](https://github.com/jitendra-sudo/OwnField)
+### [OwnField](https://ownfield.netlify.app/)
 OwnField is a platform designed to revolutionize the agricultural industry by removing intermediaries, enabling farmers to sell their crops directly to clients**Tech Stack:** React  
 ⭐ 55 | Forks: 2
 
