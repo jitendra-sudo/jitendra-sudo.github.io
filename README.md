@@ -55,7 +55,8 @@
 ### 📌 Pinned Projects  
 
 ### [OwnField](https://ownfield.netlify.app/)
-OwnField is a platform designed to revolutionize the agricultural industry by removing intermediaries, enabling farmers to sell their crops directly to clients**Tech Stack:** React  
+OwnField is designed to bridge the gap between farmers and consumers by offering a direct, convenient way for consumers to purchase fresh produce straight from the fields  
+**Tech Stack:** React  
 ⭐ 55 | Forks: 2
 
 ---
