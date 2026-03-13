@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap');
+
+
+@layer utilities {
+ .scrollbar-hide {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;    
+ }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;            
+  }
+
+  .animate-ripple {
+    animation: ripple 0.6s ease-out;
+  }
+
+  @keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 40s linear infinite;
+}
+
+
+  @keyframes ripple {
+    0% {
+      width: 0;
+      height: 0;
+      opacity: 0.5;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
+
+}
+
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+}
+
+.animate-shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+
+@layer utilities {
+  @keyframes random-move {
+    0%, 100% { transform: translate(0, 0); }
+    25% { transform: translate(-10px, 5px); }
+    50% { transform: translate(10px, -5px); }
+    75% { transform: translate(-5px, -10px); }
+  }
+
+  @keyframes random-move-slow {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(5px, -5px); }
+  }
+
+  @keyframes hover-fast {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-50px, -50px); }
+    50% { transform: translate(50px, 50px); }
+    100% { transform: translate(0, 0); }
+  }
+
+  .animate-random-move {
+    animation: random-move 10s ease-in-out infinite;
+  }
+
+  .animate-random-move-slow {
+    animation: random-move-slow 15s ease-in-out infinite;
+  }
+
+  .animate-hover-fast {
+    animation: hover-fast 8s ease-in-out forwards;
+  }
+}
+
